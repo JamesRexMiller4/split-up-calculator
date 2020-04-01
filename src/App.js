@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header/Header';
 
-function App() {
+const App = () => {
   return (
-    <main className="App">
-    </main>
+    <div className="App">
+        <Header />
+    </div>
   );
 }
 
